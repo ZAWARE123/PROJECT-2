@@ -1,0 +1,70 @@
+//InventoryProgram1.Java   
+//import java.util.Scanner; // allow for input
+import java.util.Arrays;
+import java.util.Scanner;
+
+class Product {
+    String name;
+    int item number;
+    int number of units;
+    int price per unit;
+
+    public Product (String name, int item number, int number of units, int price per unit) 
+
+{
+        this.name = name;
+        this.item number = item number;
+        this.numberofunits = units;
+        this.priceperunit = price;
+        computeValueInventory ();
+    }
+
+    private void computeValueInventory () {
+        Value = Units * price;
+    }
+
+    public int getValueInventory () {
+        return ValueInventory;
+    }
+}
+     
+
+public class InventoryProgram1 //declares public class inventory
+
+{
+
+    public static void main(String args []) //starts the program
+    {
+        Scanner input = new Scanner( System.in );
+  
+      Stapler[] stapler= new Stapler[1];
+        
+                       
+        stapler[0] = new Stapler( 645, "Black", 2, 17.99 );//declares a new item number, 
+
+color, quantity, and price
+        
+}      
+           {  
+               
+               System.out.println(Stapler[i]);
+               System.out.println();  
+              
+               System.out.println("The item number is " + stapler[i].getItemNumber());     
+
+          
+               System.out.println("Product Title is " + stapler[i].getstaplercolor()); 
+               System.out.println("The number of units in stock is " + 
+
+stapler[i].getOnHand());
+               System.out.println("The price of each stapler is " + 
+
+stapler[i].getstaplerCost());
+               System.out.println("The value of the inventory is " + stapler[i].value());  
+
+           }        
+         
+        
+     }//end class
+
+} // end class Inventory1
